@@ -1,0 +1,44 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul {
+    font-family: 微軟正黑體;
+    font-size: 0.8em;
+}
+
+ul li {
+    position: relative;
+    white-space: nowrap;
+}
+
+ul>li:last-child {
+    border-right: none;
+}
+
+ul>li {
+    float: left;
+    margin-right: 0.1em;
+}
+
+ul a {
+    background-color: rgb(221, 221, 221);
+    color: #333;
+    display: block;
+    padding: 0 3vh;
+    text-decoration: none;
+    line-height: 4vh;
+
+}
+
+ul a:hover {
+    background-color:rgb(221, 221, 221);
+    color: #fff;
+}
+
+ul li:hover>a {
+    background-color:rgb(224, 244, 245);
+    color: rgb(82, 82, 82);
+}

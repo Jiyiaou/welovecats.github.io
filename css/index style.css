@@ -1,0 +1,48 @@
+img{
+    max-width: 100%;
+}
+
+div{
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+}
+
+#gallery div {
+    width: 100%;
+    height: auto;
+    margin: 1em;
+}
+
+#newestinfo div {
+    height: auto;
+    width: 100%;
+    border-color: lightsteelblue;
+    border-style: solid;
+    text-align: center;
+    margin: 0.3em;
+}
+
+#newestinfo div li {
+    list-style: none;
+}
+
+#services div {
+    text-align: center;
+    width:100%;
+    border-color: lightsteelblue;
+    border-style: solid;
+    margin: 0.3em;
+}
+
+#aboutus div{
+    width:100%;
+    border-color: lightsteelblue;
+    border-style: solid;
+    text-align: center;
+    margin: 0.3em;
+}
+
+#aboutus p{
+    margin:1.5em 4.5em 1.5em 4.5em;
+}
