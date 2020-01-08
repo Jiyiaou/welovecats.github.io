@@ -3,7 +3,8 @@ img {
 }
 
 #service {
-
+    position: relative;
+    margin-top: 7em;
 }
 
 #services {
@@ -65,11 +66,11 @@ img {
     height: 2em;
     text-align: center;
     border-style: solid;
-    border-radius: 17%;
+    border-radius: 17px;
     border-color: lightsteelblue;
     margin: 0.5em;
-    -webkit-border-radius: 17%;
-    -moz-border-radius: 17%;
-    -ms-border-radius: 17%;
-    -o-border-radius: 17%;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
 }
