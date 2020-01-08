@@ -26,7 +26,8 @@ img {
 }
 
 #services div div {
-    height: fit-content;
+    width: 60%;
+    height: auto;
     background-color: ghostwhite;
     opacity: 80%;
     margin: 25em 1.5em 5em 1.5em;
