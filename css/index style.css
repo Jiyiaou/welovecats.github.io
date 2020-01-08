@@ -1,11 +1,8 @@
+body{
+    background: linear-gradient(#d9a7c7, #fffcdc);
+}
 img{
     max-width: 100%;
-}
-
-div{
-    border-radius: 17px;
-    -webkit-border-radius: 17px;
-    -moz-border-radius: 17px;
 }
 
 #gallery div {

@@ -1,7 +1,7 @@
 
 .navbar{
-    height: 14vh;
-    background-color: rgb(255,255,255);
+    height: fit-content;
+    background-color: #F5C3BA;
 }
 
 ul {
@@ -30,21 +30,25 @@ ul>li {
 }
 
 ul a {
-    background-color: rgb(221, 221, 221);
+    background-color: #F5C3BA;
+    line-height: 5em;
+    height: 5em;
     color: #333;
-    display: block;
+    display: block ;
     padding: 0 3vh;
-    text-decoration: none;
-    line-height: 4vh;
-
+    border-radius: 17%;
+    -webkit-border-radius: 17%;
+    -moz-border-radius: 17%;
+    -ms-border-radius: 17%;
+    -o-border-radius: 17%;
 }
 
 ul a:hover {
-    background-color:rgb(221, 221, 221);
+    background-color:#E0ABA3;
     color: #fff;
 }
 
 ul li:hover>a {
-    background-color:rgb(224, 244, 245);
+    background-color:#E0ABA3;
     color: rgb(82, 82, 82);
 }

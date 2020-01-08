@@ -19,18 +19,32 @@ section{
 }
 .gallery div{
     display: inline-block;
+    padding: 0.5%;
     text-align: center;
     width: 20%;
     border-style: solid;
-    border-radius: 17px;
+    border-radius: 17%;
     border-color: lightsteelblue;
+    -webkit-border-radius: 17%;
+    -moz-border-radius: 17%;
+    -ms-border-radius: 17%;
+    -o-border-radius: 17%;
 }
 
 .gallery table{
-    border-style: solid;
-    border-radius: 17px;
-    border-color: lightsteelblue;
-    margin: 0.1em;
+    border-radius: 17%;
+    -webkit-border-radius: 17%;
+    -moz-border-radius: 17%;
+    -ms-border-radius: 17%;
+    -o-border-radius: 17%;
+}
+
+.gallery img{
+    border-radius: 17%;
+    -webkit-border-radius: 17%;
+    -moz-border-radius: 17%;
+    -ms-border-radius: 17%;
+    -o-border-radius: 17%;
 }
 
 #aboutus{
@@ -38,17 +52,15 @@ section{
     background-color: rgba(192, 215, 235, 0.438);
 }
 
-#aboutus section{
-    margin: 0;
-}
-
 #aboutus div {
     display: inline-block;
     text-align: center;
     margin: 0.3em;
-    border-radius: 17px;
-    -webkit-border-radius: 17px;
-    -moz-border-radius: 17px;
+    border-radius: 17%;
+    -webkit-border-radius: 17%;
+    -moz-border-radius: 17%;
+    -ms-border-radius: 17%;
+    -o-border-radius: 17%;
 }
 
 #aboutus img{
@@ -57,28 +69,28 @@ section{
 }
 
 .first div{
-    width: 50vh;
+    width: 60%;
     background-color: rgb(255, 255, 255);
     opacity: 50%;
     padding: 0.3em;
 }
 
 .second div{
-    width: 50vh;
+    width: 60%;
     background-color: rgb(255, 255, 255);
     opacity: 50%;
     padding: 0.3em;
 }
 
 .third div{
-    width: 50vh;
+    width: 60%;
     background-color: rgb(255, 255, 255);
     opacity: 50%;
     padding: 0.3em;
 }
 
 .fourth div{
-    width: 50vh;
+    width: 60%;
     background-color: rgb(255, 255, 255);
     opacity: 50%;
     padding: 0.3em;

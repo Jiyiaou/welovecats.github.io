@@ -1,29 +1,39 @@
 img {
-    max-width: 100%;
+    max-height: 100%;
+}
+
+#service {
+
 }
 
 #services {
     width: 100%;
     height: auto;
-    align-items: center;
+    margin-left: 2%;
 }
 
 #services div {
     display: inline-block;
     background-size: 100%;
-    width: 20%;
-    height: 80%;
+    width: 24%;
+    height: fit-content;
+    border-radius: 17%;
+    -webkit-border-radius: 17%;
+    -moz-border-radius: 17%;
+    -ms-border-radius: 17%;
+    -o-border-radius: 17%;
 }
 
 #services div div {
-    width: 80%;
-    height: auto;
+    height: fit-content;
     background-color: ghostwhite;
     opacity: 80%;
     margin: 25em 1.5em 5em 1.5em;
     border-radius: 17%;
     -webkit-border-radius: 17%;
     -moz-border-radius: 17%;
+    -ms-border-radius: 17%;
+    -o-border-radius: 17%;
 }
 
 #services p {
@@ -32,19 +42,19 @@ img {
 }
 
 .first {
-    background: url(../img/9.png) no-repeat;
+    background: url(../img/juan\ services.jpg) no-repeat;
 }
 
 .second {
-    background: url(../img/9.png) no-repeat;
+    background: url(../img/jiang\ lang\ services.jpg) no-repeat;
 }
 
 .third {
-    background: url(../img/9.png) no-repeat;
+    background: url(../img/jiyiaou\ services.JPG) no-repeat;
 }
 
 .fourth {
-    background: url(../img/9.png) no-repeat;
+    background: url(../img/Chilumu\ services.jpg) no-repeat;
 }
 
 #aboutus p {
@@ -55,7 +65,11 @@ img {
     height: 2em;
     text-align: center;
     border-style: solid;
-    border-radius: 17px;
+    border-radius: 17%;
     border-color: lightsteelblue;
     margin: 0.5em;
+    -webkit-border-radius: 17%;
+    -moz-border-radius: 17%;
+    -ms-border-radius: 17%;
+    -o-border-radius: 17%;
 }
