@@ -1,5 +1,4 @@
-
-.navbar{
+.navbar {
     height: fit-content;
     background-color: #F5C3BA;
 }
@@ -34,7 +33,7 @@ ul a {
     line-height: 5em;
     height: 5em;
     color: #333;
-    display: block ;
+    display: block;
     padding: 0 3vh;
     border-radius: 17%;
     -webkit-border-radius: 17%;
@@ -44,11 +43,12 @@ ul a {
 }
 
 ul a:hover {
-    background-color:#E0ABA3;
+    background-color: #E0ABA3;
     color: #fff;
+    text-decoration: none;
 }
 
 ul li:hover>a {
-    background-color:#E0ABA3;
+    background-color: #E0ABA3;
     color: rgb(82, 82, 82);
 }

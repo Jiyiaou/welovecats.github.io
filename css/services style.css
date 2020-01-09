@@ -1,3 +1,8 @@
+body {
+    background: linear-gradient(#FFEFBA, #FFFFFF);
+}
+
+
 img {
     max-height: 100%;
 }
@@ -15,27 +20,30 @@ img {
 
 #services div {
     display: inline-block;
+    position: relative;
+    margin-top: 1%;
     background-size: 100%;
     width: 24%;
-    height: fit-content;
-    border-radius: 17%;
-    -webkit-border-radius: 17%;
-    -moz-border-radius: 17%;
-    -ms-border-radius: 17%;
-    -o-border-radius: 17%;
+    height: 640px;
+    padding-bottom: 1%;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
 }
 
 #services div div {
-    width: 60%;
-    height: auto;
+    width: 80%;
+    height: 20%;
     background-color: ghostwhite;
     opacity: 80%;
-    margin: 25em 1.5em 5em 1.5em;
-    border-radius: 17%;
-    -webkit-border-radius: 17%;
-    -moz-border-radius: 17%;
-    -ms-border-radius: 17%;
-    -o-border-radius: 17%;
+    margin: 95% 10% 0 10%;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
 }
 
 #services p {
@@ -66,12 +74,6 @@ img {
 .title {
     height: 2em;
     text-align: center;
-    border-style: solid;
-    border-radius: 17px;
-    border-color: lightsteelblue;
-    margin: 0.5em;
-    -webkit-border-radius: 17px;
-    -moz-border-radius: 17px;
-    -ms-border-radius: 17px;
-    -o-border-radius: 17px;
+    margin-bottom: 2%;
+    color: rgb(207, 168, 40);
 }

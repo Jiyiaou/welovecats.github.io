@@ -1,8 +1,13 @@
-body{
-    background: linear-gradient(#d9a7c7, #fffcdc);
+body {
+    background: linear-gradient(#FFEFBA, #FFFFFF);
 }
-img{
+
+img {
     max-width: 100%;
+}
+
+h3 {
+    color: rgb(212, 129, 110);
 }
 
 #gallery div {
@@ -11,13 +16,24 @@ img{
     margin: 1em;
 }
 
+.list li{
+    display: inline;
+}
+
+.list img {
+    width: 10%;
+    margin: 1%;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
 #newestinfo div {
     height: auto;
-    width: 100%;
-    border-color: lightsteelblue;
-    border-style: solid;
     text-align: center;
-    margin: 0.3em;
+    margin: 2%;
 }
 
 #newestinfo div li {
@@ -26,21 +42,14 @@ img{
 
 #services div {
     text-align: center;
-    width:100%;
-    border-color: lightsteelblue;
-    border-style: solid;
-    margin: 0.3em;
+    margin: 2%;
 }
 
-#aboutus div{
-    width:100%;
-    border-color: lightsteelblue;
-    border-style: solid;
+#aboutus div {
     text-align: center;
-    margin: 0.3em;
+    margin: 2%;
 }
 
-#aboutus p{
-    margin:1.5em 4.5em 1.5em 4.5em;
+#aboutus p {
+    margin: 1.5em 4.5em 1.5em 4.5em;
 }
-
